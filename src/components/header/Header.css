@@ -1,0 +1,151 @@
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+  padding-top: 38px;
+}
+
+.header .container {
+  padding-bottom: 17px;
+  border-bottom: 1px solid #aa53f671;
+}
+
+.header .navbar-brand {
+  margin-right: 90px;
+}
+
+.header .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.header .dropdown-menu {
+  background: #0f0933;
+}
+
+.header .dropdown-item {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.header .dropdown-item:hover {
+  background: #0f09339a;
+}
+
+.header button {
+  background: white;
+  border: none;
+  border-radius: 0px;
+  padding: 20px 36.5px;
+  margin-left: 5px;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #0f0933;
+}
+
+.header button:hover {
+  background: #0f0933;
+}
+
+.header .dropdown button {
+  background: none;
+  color: white;
+  padding-left: 0px;
+}
+
+.header .dropdown button:active {
+  background: none;
+}
+
+.header .navbar-toggler,
+.header .navbar-toggler:hover,
+.header .navbar-toggler:active {
+  background: none;
+  box-shadow: none;
+}
+
+.header .navbar-collapse.show .dropdown-menu {
+  background: none;
+  border: none;
+}
+
+.header .navbar-collapse.show form {
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: start;
+  padding: 0px;
+  gap: 40px;
+}
+
+.header .navbar-collapse.show button {
+  margin-left: 0px;
+}
+
+@media (max-width: 1024px) {
+  .header .navbar-brand {
+    margin-right: 60px;
+  }
+
+  .header .navbar-brand img {
+    height: 20px;
+  }
+
+  .header .nav-link {
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 3px;
+  }
+
+  .header .dropdown-item {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .header button {
+    padding: 13px 25px;
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding-top: 24px;
+  }
+
+  .header .navbar-brand {
+    margin-right: 40px;
+  }
+
+  .header .navbar-brand img {
+    height: 20px;
+  }
+
+  .header .nav-link {
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 2px;
+  }
+
+  .header .dropdown-item {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .header button {
+    padding: 13px 25px;
+    font-size: 13px;
+    line-height: 15px;
+  }
+}

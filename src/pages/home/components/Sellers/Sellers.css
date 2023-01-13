@@ -1,0 +1,167 @@
+.home-sellers h4 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.04em;
+  transform: rotate(-3deg);
+  white-space: pre;
+  padding: 20px 0px;
+  margin-left: -10px;
+}
+
+.home-sellers h4.bg-ink {
+  background-color: #0f0933;
+}
+
+.home-sellers h4.bg-pink {
+  background-color: #fd5c96;
+}
+
+.home-sellers-slide-item div {
+  padding: 23px 0px 0px 16px;
+}
+
+.home-sellers-slide-item p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px;
+}
+
+.home-sellers-slide-item h5 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.home-sellers {
+  margin-bottom: 250px;
+}
+
+.home-sellers .container {
+  margin-bottom: 200px;
+}
+
+.home-sellers text {
+  fill: white;
+}
+
+.home-sellers .curve-text {
+  margin-top: -120px;
+}
+
+.home-sellers-review h4 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.home-sellers-review h3 {
+  margin-top: 40px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.home-sellers-review h6 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media (max-width: 1024px) {
+  .home-sellers-slide-item p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .home-sellers-slide-item h5 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .home-sellers-review h4 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .home-sellers .container {
+    margin-bottom: 140px;
+  }
+
+  .home-sellers .curve-text {
+    margin-top: -70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-sellers-slide-item p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .home-sellers-slide-item h5 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .home-sellers-review h4 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .home-sellers-review h3 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .home-sellers-review h6 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .home-sellers .container {
+    margin-bottom: 120px;
+  }
+
+  .home-sellers .curve-text {
+    margin-top: -70px;
+  }
+}
+
+@media (max-width: 425px) {
+  .home-sellers {
+    margin-bottom: 0px;
+  }
+
+  .home-sellers .container {
+    margin-bottom: 30px;
+  }
+
+  .home-sellers-review h4 {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .home-sellers-review h3 {
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 20px;
+  }
+
+  .home-sellers-review h6 {
+    font-size: 15px;
+    line-height: 17px;
+  }
+}

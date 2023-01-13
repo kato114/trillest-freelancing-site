@@ -1,0 +1,85 @@
+.home-steps {
+  padding-bottom: 300px;
+}
+
+.home-steps text {
+  fill: #0f0933;
+}
+
+.home-steps .nav-tabs {
+  border: none;
+  padding: 60px 0px;
+}
+
+.home-steps .nav-item {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.home-steps .nav-item .nav-link {
+  padding-bottom: 30px;
+  color: white;
+  border: none;
+}
+
+.home-steps .nav-item .nav-link.active {
+  color: white;
+  background: none;
+  border-bottom: 1px solid #fd5c96;
+}
+
+.home-steps .nav-item .nav-link:hover,
+.home-steps .nav-item .nav-link:active {
+  border-bottom: 1px solid #fd5c96;
+}
+
+@media (max-width: 1024px) {
+  .home-steps {
+    padding-bottom: 250px;
+  }
+
+  .home-steps .nav-item {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-steps {
+    padding-bottom: 200px;
+  }
+
+  .home-steps .nav-item {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 425px) {
+  .home-steps {
+    padding-bottom: 150px;
+  }
+
+  .home-steps .nav-item {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .home-steps .nav-item .nav-link {
+    padding: 0px 0px 15px 0px;
+  }
+
+  .home-steps .nav-tabs {
+    border: none;
+    padding: 30px 0px;
+  }
+}
